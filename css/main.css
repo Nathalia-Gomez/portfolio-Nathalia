@@ -1,0 +1,41 @@
+:root {
+  --theme-color: white;
+  --primary-color: #9a06ef;
+  --secundary-color: #9a06ef;
+  --text-color-inverse: white;
+  --text-color: black;
+  --navbar-shallow-color: #e5e5e5;
+  --menu-mobile-background-color: #3A4460;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--theme-color);
+  color: var(--text-color);
+  padding-top: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.horizontal-padding {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.vertical-padding {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 950px) {
+  .horizontal-padding {
+    padding-left: 50px;
+    padding-right: 70px;
+  }
+  .vertical-padding {
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+}
