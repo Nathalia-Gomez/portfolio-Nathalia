@@ -1,23 +1,9 @@
-/*
-
-
-18206F
-17255A
-F5E2C8
-D88373
-BD1E1E
-
-*/
-
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Roboto Condensed', sans-serif;
 }
-
-
-
 
 header{
     background-color: white;
@@ -133,17 +119,6 @@ header{
     height: 697px;*/
 }
 
-/*.container::before{
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 150px;
-    background: linear-gradient(to top, #18206F, transparent);
-    z-index: 10;
-}*/
-
 
 /*Cambiar tamaño de todas las imagenes*/
 .git{
@@ -153,8 +128,6 @@ header{
     max-height: 90%;
     max-width: 90%;
 }
-
-
 
 
 .proyecto{
@@ -171,33 +144,6 @@ header{
     border-radius: 10px;
     color: white;
 }
-
-
-/*Section Video
-.containerdos{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5%;
-    justify-content: center;
-}
-
-
-.logosy{
-    height: auto;
-    width: auto;
-    max-height: 500px;
-    max-width: 500px;
-    padding: 1%;
-    
-}*/
-
-
-
-/*video{
-    width: 100%;
-}*/
-
-
 
 .laptop{
 
