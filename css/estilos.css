@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header{
@@ -11,6 +11,7 @@ header{
     background-size:cover;
     background-repeat: no-repeat;
     height: 800px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .containeruno{
@@ -29,6 +30,7 @@ header{
     width: auto;
     max-height: 100px;
     max-width: 100px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -42,6 +44,7 @@ header{
     /*alinear logos*/
     align-content: center;
     align-items: center;
+    font-family: 'Montserrat', sans-serif;
     
     
 /*Centrar hijos*/
@@ -50,10 +53,11 @@ header{
     
     
     /*Background image dos*/
-    background-image: url(../img/teclas.png);
+    background-color: blueviolet;
     background-attachment: fixed;
     background-size:cover;
     background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
     /* NO PONER PORQUE NO RESPETA EL FLEX-BOX
     height: 697px;*/
 }
@@ -65,6 +69,7 @@ header{
     width: auto;
     max-height: 100px;
     max-width: 100px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -83,10 +88,12 @@ header{
     border-radius: 10px;
     color: white;
     border: 10px solid black ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
 }
 
 .child:hover{
-    border: 5px solid #9a06ef;
+    border: 5px solid rgb(243, 94, 231);
     
 }
 
